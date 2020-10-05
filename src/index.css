@@ -4,15 +4,14 @@ body {
   font-family: sans-serif;
 }
 
-.home .post img{
-  position:absolute;
+.home .post img {
+  position: absolute;
   top: 20px;
   left: -100px;
   opacity: 0.6;
 }
 
-.home .post{
+.home .post {
   padding-left: 80px;
   overflow: hidden;
 }
-

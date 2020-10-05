@@ -29,9 +29,7 @@ const Post: React.FC<IRouteType> = (props) => {
   ) : (
     <div className="center">Post still loading....</div>
   );
-  return <div className="container">
-      {displayPost}
-  </div>;
+  return <div className="container">{displayPost}</div>;
 };
 
 export default Post;
