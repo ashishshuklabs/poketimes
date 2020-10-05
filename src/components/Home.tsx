@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import IPost from "./IPost";
 import { Link } from "react-router-dom";
-import pokeball from '../logo.png';
+import pokeball from "../logo.png";
 const Home = () => {
   const [posts, setPosts] = useState<IPost[]>([]);
   useEffect(() => {
@@ -20,9 +20,9 @@ const Home = () => {
     posts.map((post) => {
       return (
         <div className="post card" key={post.id}>
-            <img src={pokeball} alt="A pokeball"/>
+          <img src={pokeball} alt="A pokeball" />
           <div className="card-content">
-            <Link to={'/' + post.id}>
+            <Link to={"/" + post.id}>
               <span className="card-title">{post.title}</span>
             </Link>
             <p>{post.body}</p>
