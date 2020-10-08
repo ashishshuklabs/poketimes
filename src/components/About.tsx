@@ -8,4 +8,5 @@ const About = () =>{
         </div>
     );
 }
+//Using HOC
 export default Rainbow(About);
